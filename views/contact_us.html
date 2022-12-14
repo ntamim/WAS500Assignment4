@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/css/nav-bar.css" />
+    </style>
+        <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+  </head>
+  <body>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./books.html">Book List</a></li>
+      <li class="active" style="background-color: #936565">
+        <a href="./contact_us.html">Contact Us</a>
+      </li>
+      <li><a href="./survey.html">Survey</a></li>
+      <li><a href="./honesty_page.html">Honesty Page</a></li>
+    </ul>
+    <style>
+      body {
+        background-image: url('https://img.freepik.com/free-photo/open-book-with-white-background_23-2148882765.jpg?w=1380&t=st=1668026090~exp=1668026690~hmac=04781beebca9891d243a79bf82fe8ad8a26e3e76c3c310bd97878cba7d7f0d95');
+      }
+      </style> 
+    <div style="margin-left: 20%; padding: 16px 16px; height: 1000px; width: 100%">
+      <h1><b>Contact Us</b></h1>
+      <p>Phone: (416)000-1234</p>
+      <p>Address: 1750 Finch Ave E, North York, ON M2J 2X5</p>
+
+    <div class="container">
+      <embed src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11519.534191538492!2d-79.3485918!3d43.7960294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d31babbf5ce7%3A0x5812aa25d9fb9912!2sSeneca%20College%20Newnham%20Campus!5e0!3m2!1sen!2sca!4v1664304103956!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></embed>
+    </div>
+
+    <script>
+      function myMap() {
+        var mapProp = {
+          center: new google.maps.LatLng(51.508742, -0.12085),
+          zoom: 2,
+        };
+        var map = new google.maps.Map(
+          document.getElementById("googleMap"),
+          mapProp
+        );
+      }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARrrrNFEzyKwKBH7VekPQBjvWphfaetY0&callback=myMap"></script>
+  </body>
+</html>

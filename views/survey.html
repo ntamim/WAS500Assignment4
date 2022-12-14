@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="/css/nav-bar.css" />
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./books.html">Book List</a></li>
+      <li><a href="./contact_us.html">Contact Us</a></li>
+      <li class="active" style="background-color: #936565">
+        <a href="./survey.html">Survey</a>
+      </li>
+      <li><a href="./honesty_page.html">Honesty Page</a></li>
+    </ul>
+    <style>
+      body {
+        background-image: url('https://img.freepik.com/free-photo/open-book-with-white-background_23-2148882765.jpg?w=1380&t=st=1668026090~exp=1668026690~hmac=04781beebca9891d243a79bf82fe8ad8a26e3e76c3c310bd97878cba7d7f0d95');
+      }
+      </style> 
+    <div style="margin-left: 20%; padding: 16px; height: 100px; width: 50%">
+      <h1><b>Survey</b></h1>
+      <form
+        action="/action_page.php"
+        style="
+          text-align: center;
+          margin-top: 30px;
+          background-color: #edeaeaf5;
+          padding: 20px;
+          width: 500px;
+        "
+      >
+        <label for="name">Name:</label><br />
+        <input type="text" id="fname" name="fname" value="" /><br />
+        <label for="lname">Date of Birth:</label><br />
+        <input type="date" /><br /><br />
+        <label
+          >Based on your recent online visit, how likely are you going recommend
+          this library to your friends</label
+        >
+        <br />
+        <b>Very Likely </b
+        ><input type="radio" id="html" name="fav_language" value="HTML" />
+        <br />
+
+        <b>Somewhat likely </b
+        ><input type="radio" id="html" name="fav_language" value="HTML" />
+        <br />
+        <b>Not likely at all </b
+        ><input type="radio" id="html" name="fav_language" value="HTML" />
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
